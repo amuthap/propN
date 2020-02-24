@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "7390337362",
+    "firebase_url": "https://webapp-260208.firebaseio.com",
+    "project_id": "webapp-260208",
+    "storage_bucket": "webapp-260208.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7390337362:android:347f85c24fc45b2895028b",
+        "android_client_info": {
+          "package_name": "webapp.expofb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7390337362-kjm9nnacbqu3h7j0t5tj8o224rumlcjm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4OGAuYPxldt5ew4BD2qP-mdwfOonifc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7390337362-vhhgfau5pi5ebui3uvolte8m0baginqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

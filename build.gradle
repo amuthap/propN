@@ -1,0 +1,65 @@
+buildscript {
+  repositories {
+    // Check that you have the following line (if not, add it):
+    google()  // Google's Maven repository
+  }
+  dependencies {
+    ...
+    // Add this line
+    classpath 'com.google.gms:google-services:4.3.2'
+  }
+}
+
+allprojects {
+  ...
+  repositories {
+    // Check that you have the following line (if not, add it):
+    google()  // Google's Maven repository
+    ...
+  }
+}
+apply plugin: 'com.android.application'
+dependencies {
+  // add the Firebase SDK for Google Analytics
+  implementation 'com.google.firebase:firebase-analytics:17.2.0'
+  // add SDKs for any other desired Firebase products
+  // https://firebase.google.com/docs/android/setup#available-libraries
+}
+...
+// Add to the bottom of the file
+apply plugin: 'com.google.gms.google-services'
+buildscript {
+  repositories {
+    // Check that you have the following line (if not, add it):
+    google()  // Google's Maven repository
+  }
+  dependencies {
+    ...
+    // Add this line
+    classpath 'com.google.gms:google-services:4.3.2'
+  }
+}
+
+allprojects {
+  ...
+  repositories {
+    // Check that you have the following line (if not, add it):
+    google()  // Google's Maven repository
+    ...
+  }
+}
+apply plugin: 'com.android.application'
+dependencies {
+  // add the Firebase SDK for Google Analytics
+  implementation 'com.google.firebase:firebase-analytics:17.2.0'
+  // add SDKs for any other desired Firebase products
+  // https://firebase.google.com/docs/android/setup#available-libraries
+}
+...
+// Add to the bottom of the file
+dependencies {
+  // ..
+  implementation project(':@react-native-firebase_firestore')
+}
+apply plugin: 'com.google.gms.google-services'
+api project(':expo-firebase-firestore')
